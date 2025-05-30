@@ -21,6 +21,13 @@ Running this against 13,788 Sitefinity KB articles resulted in a single txt file
 
 `python kbdownloader.py --csv_file "sitefinity-urls.csv"`
 
+![image](https://github.com/user-attachments/assets/20fe23b5-24bf-42a4-9d48-efe1544dbfd6)
+
+Using this data in Copilt has promising results
+
+![image](https://github.com/user-attachments/assets/930d0bd3-4c49-4ae8-b6a5-a21f0ecb190d)
+
+
 Running with with concatenation disabled, results in 13,788 separate files at ~25kb each.
 
 `python kbdownloader.py --csv_file "sitefinity-urls.csv" --output_folder_name "SitefinityKBs" --concatenate False`
