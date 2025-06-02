@@ -39,3 +39,9 @@ Contact Lance McCarthy with any questions.
 ## Prerequisite
 
 This script uses python for the easiest compatibility for quick use. If you do not have Python installed, it is quick and easy; just download and run the appropriate installer from [Pythons's official site](https://www.python.org/downloads/). After it is installed, open your favorite command line tool and follow the instructions below.
+
+You also need the `selenium` module installed, after installing Python, run the following command: 
+
+```powershell
+pip install selenium
+```
